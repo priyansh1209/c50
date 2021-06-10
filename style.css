@@ -1,0 +1,32 @@
+body{
+    background-color: #808080;
+}
+
+p{
+    text-align: center;
+    color: #ff0000;
+    font-size: 20px;
+    border: #ffffff solid;
+}
+
+h1{
+    color: #0023f8;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    border: #000000 solid;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
